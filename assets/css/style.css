@@ -1,0 +1,157 @@
+header {
+    box-shadow: 0px 2px 2px 0px gainsboro;
+    background-color: white;
+
+}
+
+#name {
+    align-content: center;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    font-family: 'Georgia', Times, Times New Roman Times, serif;
+
+}
+
+body {
+
+    margin: 0 auto;
+    background-image: url("../images/background.png");
+
+
+
+
+}
+
+p {
+    font-family: Times, Times New Roman Times, serif;
+    color: #777777;
+    margin-left: 5px
+}
+
+#window {
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+#window-connect-with-me {
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 130px;
+}
+#footer{
+ 
+    color: #777777;
+}
+.logo-connect {
+    width: 25px;
+    height: 25px;
+}
+
+#container-logos {
+    display: flex;
+    justify-content: center;
+}
+
+
+#container-logos>img {
+    margin: 5px;
+}
+
+#AboutMe {
+    color: #4aaaa5;
+}
+
+.navigation {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.navigation>li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navigation>li>a {
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+.container {
+    padding: 1px 10px;
+}
+
+#icon {
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.links {
+    width: 100%;
+}
+
+h3 {
+    color: #4aaaa5;
+}
+
+.Content {
+    width: 960px;
+}
+
+
+
+#box1 {
+    display: flex;
+    width: 300px;
+}
+
+#box2 {
+    display: flex;
+    width: 300px;
+}
+
+#box3 {
+    display: flex;
+    height: 150px;
+    width: 300px;
+}
+
+.textColor {
+    color: #777777;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+img {
+    padding-bottom: 5px;
+    margin: 20px;
+    padding-left: 2px;
+    padding-right: 3px;
+}
+
+a {
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+
+    justify-content: center;
+}
