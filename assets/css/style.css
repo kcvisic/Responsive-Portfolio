@@ -1,7 +1,6 @@
 header {
     box-shadow: 0px 2px 2px 0px gainsboro;
     background-color: white;
-
 }
 
 #name {
@@ -16,17 +15,12 @@ header {
     margin-bottom: 0px;
     margin-left: 10%;
     font-family: 'Georgia', Times, Times New Roman Times, serif;
-
 }
 
 body {
 
     margin: 0 auto;
     background-image: url("../images/background.png");
-
-
-
-
 }
 
 p {
@@ -55,10 +49,12 @@ p {
     margin-left: 30px;
     height: 130px;
 }
-#footer{
- 
+
+#footer {
+
     color: #777777;
 }
+
 .logo-connect {
     width: 25px;
     height: 25px;
@@ -154,4 +150,65 @@ a {
     height: 25px;
 
     justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+    #window {
+        width: 20%;
+        height: 57%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #window-connect-with-me {
+        width: 70%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #box1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #box2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #box3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-connect {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    header {
+        width: 30%
+    }
+}
+
+@media screen and(max-width: 980px) {
+    #name {
+        width: 70%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #container-logos {
+        width: 50%;
+    }
 }
